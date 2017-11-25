@@ -1,8 +1,8 @@
 //
-//  AppDelegate.swift
+//
 //  CalendarBug
 //
-//  Created by Talha on 25.11.2017.
+//  Created by Swift on 25.11.2017.
 //  Copyright © 2017 Swift. All rights reserved.
 //
 
