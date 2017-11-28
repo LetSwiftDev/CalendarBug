@@ -6,6 +6,7 @@
 //  Copyright © 2017 Swift. All rights reserved.
 //
 
+import  UIKit
 import JTAppleCalendar
 
 class CellView: JTAppleCell {

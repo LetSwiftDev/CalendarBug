@@ -16,10 +16,10 @@
 		BC4C797F1FC96AA10052AAED /* CalendarBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C797E1FC96AA10052AAED /* CalendarBugUITests.swift */; };
 		BC4C798D1FC96AFA0052AAED /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C798C1FC96AFA0052AAED /* TagListView.swift */; };
 		BC4C798F1FC96B950052AAED /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C798E1FC96B950052AAED /* CellView.swift */; };
-		BC4C79911FC96C810052AAED /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4C79901FC96C7B0052AAED /* JTAppleCalendar.framework */; };
-		BC4C79921FC96C810052AAED /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC4C79901FC96C7B0052AAED /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BC4C79961FC96C8D0052AAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4C79951FC96C8D0052AAED /* UIKit.framework */; };
 		BC4C79981FC96C920052AAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4C79971FC96C910052AAED /* Foundation.framework */; };
+		BCC88E471FCDE9EA008833E2 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC88E411FCDE89A008833E2 /* JTAppleCalendar.framework */; };
+		BCC88E481FCDE9EA008833E2 /* JTAppleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCC88E411FCDE89A008833E2 /* JTAppleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BCC88E4A1FCDE9EC008833E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4C79951FC96C8D0052AAED /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BC4C79931FC96C810052AAED /* Embed Frameworks */ = {
+		BCC88E491FCDE9EA008833E2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BC4C79921FC96C810052AAED /* JTAppleCalendar.framework in Embed Frameworks */,
+				BCC88E481FCDE9EA008833E2 /* JTAppleCalendar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +69,9 @@
 		BC4C79801FC96AA10052AAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4C798C1FC96AFA0052AAED /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
 		BC4C798E1FC96B950052AAED /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
-		BC4C79901FC96C7B0052AAED /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JTAppleCalendar.framework; sourceTree = SOURCE_ROOT; };
 		BC4C79951FC96C8D0052AAED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BC4C79971FC96C910052AAED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCC88E411FCDE89A008833E2 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC4C79981FC96C920052AAED /* Foundation.framework in Frameworks */,
-				BC4C79961FC96C8D0052AAED /* UIKit.framework in Frameworks */,
-				BC4C79911FC96C810052AAED /* JTAppleCalendar.framework in Frameworks */,
+				BCC88E471FCDE9EA008833E2 /* JTAppleCalendar.framework in Frameworks */,
+				BCC88E4A1FCDE9EC008833E2 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,6 @@
 		BC4C795D1FC96AA10052AAED /* CalendarBug */ = {
 			isa = PBXGroup;
 			children = (
-				BC4C79901FC96C7B0052AAED /* JTAppleCalendar.framework */,
 				BC4C798C1FC96AFA0052AAED /* TagListView.swift */,
 				BC4C795E1FC96AA10052AAED /* AppDelegate.swift */,
 				BC4C798E1FC96B950052AAED /* CellView.swift */,
@@ -160,6 +159,7 @@
 		BC4C79941FC96C8D0052AAED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCC88E411FCDE89A008833E2 /* JTAppleCalendar.framework */,
 				BC4C79971FC96C910052AAED /* Foundation.framework */,
 				BC4C79951FC96C8D0052AAED /* UIKit.framework */,
 			);
@@ -176,7 +176,8 @@
 				BC4C79571FC96AA10052AAED /* Sources */,
 				BC4C79581FC96AA10052AAED /* Frameworks */,
 				BC4C79591FC96AA10052AAED /* Resources */,
-				BC4C79931FC96C810052AAED /* Embed Frameworks */,
+				BCC88E401FCDE85B008833E2 /* ShellScript */,
+				BCC88E491FCDE9EA008833E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +296,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCC88E401FCDE85B008833E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/JTAppleCalendar.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BC4C79571FC96AA10052AAED /* Sources */ = {
@@ -474,6 +492,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CalendarBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -492,6 +511,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CalendarBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

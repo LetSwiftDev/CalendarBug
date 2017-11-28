@@ -259,6 +259,12 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate  {
 }
 
 extension ViewController: JTAppleCalendarViewDelegate, JTAppleCalendarViewDataSource {
+  
+    
+    func calendar(_ calendar: JTAppleCalendarView, willDisplay cell: JTAppleCell, forItemAt date: Date, cellState: CellState, indexPath: IndexPath) {
+        
+    }
+    
     
     func configureCalendar(_ calendar: JTAppleCalendarView) -> ConfigurationParameters {
         
